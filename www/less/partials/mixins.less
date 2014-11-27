@@ -1,0 +1,62 @@
+@import "vars";
+.button {
+  font-size: 18px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 30px;
+  padding-left: 50px;
+  position: relative;
+  color:@white-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+  box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+  border-bottom: 3px solid darken(@button-red, 20%);
+
+  span{
+    position: absolute;
+    left: 0;
+    // width: 10px;
+    background-color:rgba(0,0,0,0.5);
+    border-right: 1px solid  rgba(0,0,0,0.15);
+    padding-left: 2px;
+    // z-index: -1;
+    display: none;
+  }
+
+  &:hover span, &.active span {
+    background-color: darken(@button-red, 20%);
+    border-right: 1px solid  @primary-color;
+    text-decoration: none;
+    display: block;
+  }
+
+  &:active{
+    margin-top: 2px;
+    margin-bottom: 13px;
+    -moz-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+  }
+  &.red{
+    background: @button-red;
+  }
+
+  &:hover{
+    margin-left: 20px;
+  }
+}
+
+.button, a:hover, a:focus {
+  color: @white-color;
+  text-decoration: none;
+}

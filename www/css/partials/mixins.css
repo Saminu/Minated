@@ -1,0 +1,56 @@
+.button {
+  font-size: 18px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 30px;
+  padding-left: 50px;
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #b60006;
+}
+.button span {
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 2px;
+  display: none;
+}
+.button:hover span,
+.button.active span {
+  background-color: #b60006;
+  border-right: 1px solid #083a4b;
+  text-decoration: none;
+  display: block;
+}
+.button:active {
+  margin-top: 2px;
+  margin-bottom: 13px;
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+.button.red {
+  background: #ff1d25;
+}
+.button:hover {
+  margin-left: 20px;
+}
+.button,
+a:hover,
+a:focus {
+  color: #ffffff;
+  text-decoration: none;
+}

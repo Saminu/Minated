@@ -1,0 +1,47 @@
+/**
+ * Footer Styling
+ */
+.site-footer {
+  margin-bottom: 80px;
+}
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+}
+.social-icons {
+  margin-top: 10px;
+  text-align: right;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0 2px;
+}
+.social-icons li a {
+  width: 36px;
+  height: 36px;
+  color: #083a4b;
+  text-align: center;
+  line-height: 36px;
+}
+.social-icons li a:hover {
+  background: #083a4b;
+  color: #ffffff;
+}
+@media screen and (min-width: 240px) {
+  .footer-logo {
+    display: none;
+  }
+  .social-icons {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    display: inline-block;
+  }
+  .social-icons {
+    text-align: right;
+    margin-top: 0;
+  }
+}

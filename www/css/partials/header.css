@@ -1,0 +1,80 @@
+.site-header {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+@media screen and (min-width: 240px) {
+  .site-header {
+    top: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .site-header {
+    top: 60px;
+  }
+}
+.main-header {
+  background: #ffffff;
+  min-height: 100px;
+  height: 100px;
+}
+.logo {
+  margin: 25px;
+  overflow: hidden;
+}
+.main-menu {
+  text-align: right;
+  float: right;
+}
+.main-menu ul li {
+  display: inline-block;
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-left: 1px solid #eeeeee;
+}
+.main-menu ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #888888;
+  line-height: 100px;
+}
+.main-menu ul li a:hover {
+  color: #083a4b;
+}
+.main-menu ul li.active {
+  background: #083a4b;
+}
+.main-menu ul li.active a {
+  color: #ffffff;
+}
+a.toggle-menu {
+  background: #eeeeee;
+  color: #083a4b;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.menu-responsive {
+  background: #083a4b;
+  padding: 15px 30px;
+  display: none;
+}
+.menu-responsive ul li {
+  margin: 24px 0;
+  display: block;
+}
+.menu-responsive ul li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.menu-responsive ul li.active a {
+  color: #083a4b;
+}

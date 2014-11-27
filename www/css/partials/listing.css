@@ -1,0 +1,33 @@
+.listing {
+  border-bottom: 3px solid #808080;
+  border-top: 1px solid #aaaaaa;
+  border-left: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.listing .listing-body {
+  padding: 8px;
+}
+.listing .listing-body .listing-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  vertical-align: middle;
+}
+.listing .listing-body .header {
+  color: #555555;
+  font-size: 22px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.listing .listing-body .price {
+  color: #aaaaaa;
+}
+.listing .listing-body p {
+  line-height: 20px;
+  font-size: 13px;
+  margin: 0 0 10px;
+  list-style: none outside none;
+  color: #888888;
+}
